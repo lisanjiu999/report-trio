@@ -1,0 +1,7 @@
+interface:
+  display_name: "Report Trio"
+  short_description: "Generate synchronized Excel, PDF, and PPT reports"
+  default_prompt: "Use $report-trio to turn this data table into a consistent Excel, PDF, and PPT report."
+
+policy:
+  allow_implicit_invocation: true

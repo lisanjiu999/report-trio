@@ -1,0 +1,23 @@
+# Generated reports and local inputs
+outputs/
+report.json
+*.report.json
+*.inspect.ndjson
+
+# Python runtime and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+test-output/
+
+# Local environments and build directories
+.venv/
+venv/
+env/
+.report-trio-deps/
+.codex-finalizer/
+.smoke-profile/
+tmp/
+temp/
